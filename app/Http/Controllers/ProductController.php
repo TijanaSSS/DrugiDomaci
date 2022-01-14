@@ -124,7 +124,8 @@ class ProductController extends Controller
             $porudzbina->status="pending";
             $porudzbina->nacin_placanja=$req->payment;
             $porudzbina->status_placanja="pending";
-            $porudzbina->adresa=$req->adresa;
+            $porudzbina->adresaPosiljaoca=$req->adresa;
+            $porudzbina->brtelefona=$req->brtelefona;   //ovo sam dodala
             $porudzbina->save();
             //Korpa::where('korisnik_id', $userId)->delete();
            

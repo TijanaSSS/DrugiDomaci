@@ -31,9 +31,12 @@
   <div>
     <form action="/narucistrana" method = "POST"> <!--  action="/narucistrana"     -->
       @csrf
-      <div class="form-group">
-        <textarea name = "adresa" placeholder = "Unesite adresu" class="form-control"></textarea>
+      <div class="form-group"><textarea name = "adresa" placeholder = "Unesite adresu" class="form-control"></textarea>
+      <br>
+      <div class="form-group"><textarea name = "brtelefona" placeholder = "Unesite broj telefona" class="form-control"></textarea>
+
       </div>
+      
 
       <div class="form-group">
         <label for="pwd">Način plaćanja</label>
